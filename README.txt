@@ -1,5 +1,7 @@
 8 bit mono
 
+db, dd, dw is asm length
+
             ;---RIFF CHUNK-------------------------
 db  'RIFF'  ;identifier
 dd  ?       ;overall length=file length-8 (fill in)

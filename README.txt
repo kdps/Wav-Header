@@ -1,6 +1,6 @@
 8 bit mono
 
-    ;---RIFF CHUNK-------------------------
+            ;---RIFF CHUNK-------------------------
 db  'RIFF'  ;identifier
 dd  ?       ;overall length=file length-8 (fill in)
 db  'WAVE'  ;RIFF chunk type
